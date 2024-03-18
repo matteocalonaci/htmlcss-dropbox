@@ -1,0 +1,454 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* inizio header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3rem;
+    position: fixed;
+    background-color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.column-sx {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    min-width: 35rem;
+    align-items: center;
+    text-align: start;
+    padding: 0.5rem 1rem;
+}
+
+.column-sx>a {
+    text-decoration: none;
+    color: grey;
+}
+
+.column-dx>a {
+    text-decoration: none;
+    color: grey;
+}
+
+img {
+    height: 2rem;
+}
+
+.column-center {
+    width: 16rem;
+}
+
+.column-dx {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+    min-width: 35rem;
+    text-align: end;
+}
+
+.column-dx>button {
+    font-size: 1rem;
+    background-color: blue;
+    padding: 0.4rem 1rem;
+    color: white;
+}
+
+/*inizio main*/
+
+
+
+
+/* first section */
+
+
+.first-section {
+    background-color: aqua;
+    min-width: 100%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.main-page {
+    margin: auto;
+    min-height: 20rem;
+    width: 70%;
+    background-color: aqua;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 4rem;
+    text-align: start;
+
+}
+
+.box {
+    display: flex;
+    min-width: 100%;
+}
+
+.description {
+    width: 30%;
+    min-height: 10rem;
+    background-color: aqua;
+    border: 0.1rem solid black;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.description>button {
+    padding: 0.5rem 1rem;
+    margin: 2rem 0;
+    color: white;
+    background-color: blue;
+}
+
+.fa-arrow-down {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    min-height: 10rem;
+    background-color: aqua;
+    border: 0.2rem solid black;
+}
+
+
+
+/* second section */
+
+
+.second-section {
+    background-color: pink;
+    min-width: 100%;
+    margin: auto;
+}
+
+.second-container {
+    margin: auto;
+    min-height: 10rem;
+    width: 60%;
+    background-color: lightcoral;
+    padding-bottom: 2rem;
+}
+
+.second-container>h2 {
+    padding: 3rem 0;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.plan>.column-a {
+    margin-top: 2rem;
+    background-color: peachpuff;
+    width: calc(100% / 3 - 1rem);
+    min-height: 5rem;
+    border: 0.1rem solid black;
+}
+
+.column-bottom {
+    width: 100%;
+    min-height: 2rem;
+    background-color: yellow;
+    margin-top: 1rem;
+    border: 0.1rem solid gray;
+}
+
+.up {
+    background-color: beige;
+    text-align: center;
+    border-bottom: 0.1rem solid gray;
+}
+
+.under {
+    display: flex;
+
+}
+
+.under-sx {
+    text-align: start;
+    background-color: yellowgreen;
+    min-width: 70%;
+}
+
+.under-sx>h3 {
+    padding: 2rem 0;
+}
+
+.under-sx>p {
+    font-size: 0.8rem;
+}
+
+.under-dx {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 30%;
+    background-color: seagreen;
+    border-left: 0.1rem solid gray;
+}
+
+.under-dx>button {
+    max-height: 2rem;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    color: white;
+    background-color: blue;
+}
+
+
+
+/* third section */
+
+
+.third-section {
+    background-color: pink;
+    min-width: 100%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.third-container {
+    display: flex;
+    margin: auto;
+    min-height: 10rem;
+    width: 60%;
+    background-color: lightcoral;
+}
+
+.img2 {
+    justify-content: center;
+    background-color: purple;
+    min-width: 60%;
+
+}
+
+.text2 {
+    justify-content: center;
+    background-color: blueviolet;
+    min-width: 40%;
+    padding-left: 1rem;
+}
+
+.text2>h2 {
+    padding: 2rem 0;
+}
+
+.text2>button {
+    margin: 2rem 0;
+    padding: 0.5rem 2rem;
+    color: black;
+    background-color: white;
+}
+
+
+
+/* fourth section */
+
+
+.fourth-section {
+    background-color: pink;
+    min-width: 100%;
+    margin: auto;
+}
+
+.fourth-container {
+    margin: auto;
+    min-height: 10rem;
+    width: 60%;
+    background-color: lightcoral;
+}
+
+.fourth-container>h2 {
+    text-align: center;
+}
+
+.card {
+    justify-content: space-between;
+    align-content: center;
+    background-color: green;
+    width: calc(100% / 3 - 1rem);
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+
+.card>.img3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10rem;
+}
+
+.card>h3 {
+    padding: 1rem 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+/* fifth section */
+
+
+.fifth-section {
+    background-color: violet;
+    min-width: 100%;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.fifth-container {
+    margin: auto;
+    min-height: 10rem;
+    width: 60%;
+    background-color: violet;
+}
+
+.fifth-container>h2 {
+    padding: 3rem 0;
+}
+
+
+
+/* sixth section */
+
+
+.sixth-section {
+    background-color: aqua;
+    min-width: 100%;
+    margin: auto;
+}
+
+.sixth-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    min-height: 20rem;
+    width: calc(100% - 3);
+    background-color: lightgreen;
+}
+
+.box-sx {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    min-width: calc(100% / 3);
+    border: 0.1rem solid black;
+
+
+}
+
+.box-sx>.pic {
+    height: calc(100% / 2);
+    width: calc(100% / 3);
+    background-color: lightgreen;
+    border: 0.1rem solid black;
+
+}
+
+.box-center {
+    background-color: yellow;
+    min-width: 33.3%;
+}
+
+.box-dx {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orangered;
+    min-width: calc(100% / 3);
+    border: 0.1rem solid black;
+}
+
+.box-dx>.pic {
+    height: calc(100% / 2);
+    width: calc(100% / 3);
+    background-color: lightgreen;
+    border: 0.1rem solid black;
+}
+
+/* seventh section */
+
+.seventh-section {
+    background-color: lightskyblue;
+    min-width: 100%;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.seventh-container {
+    display: flex;
+    margin: auto;
+    min-height: 10rem;
+    width: 60%;
+    background-color: lightcoral;
+    justify-content: space-between;
+}
+
+.seventh-container>h2 {
+    padding: 3rem 0;
+}
+
+.seventh-container>button {
+    height: 2rem;
+    margin: 4rem 0;
+    padding: 0.5rem 1rem;
+}
+
+
+
+/*inizio footer */
+
+
+/* eighth section */
+
+
+.eighth-section {
+    background-color: orange;
+    min-width: 100%;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.eighth-container {
+    display: flex;
+    margin: auto;
+    min-height: 10rem;
+    width: 60%;
+    background-color: purple;
+    justify-content: space-between;
+}
+
+
+
+
+/*inizio footer */
