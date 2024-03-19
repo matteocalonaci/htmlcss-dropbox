@@ -199,6 +199,7 @@ h1 {
     min-height: 2rem;
     margin-top: 1rem;
     border: 0.1rem solid rgba(128, 128, 128, 0.200);
+    margin-top: 2rem;
 }
 
 .up {
@@ -257,6 +258,7 @@ h1 {
     text-align: start;
     background-color: white;
     min-width: 0%;
+    padding: 1rem;
 }
 
 .under-sx>h3 {
@@ -264,8 +266,7 @@ h1 {
 }
 
 .under-sx>p {
-    font-size: 0.8rem;
-    padding: 1rem 0;
+    font-size: 1rem;
 }
 
 .under-dx {
@@ -349,10 +350,6 @@ h1 {
     width: 60%;
 }
 
-.fourth-container>h2 {
-    text-align: center;
-}
-
 .card {
     justify-content: space-between;
     align-content: center;
@@ -395,10 +392,13 @@ h1 {
     background-color: white;
     min-width: 100%;
     margin: auto;
-    padding-bottom: 5rem;
+    padding: 8rem 0;
 }
 
 .fifth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     min-height: 10rem;
     width: 60%;
@@ -415,9 +415,10 @@ h1 {
 
 
 .sixth-section {
-    background-color: aqua;
+    background-color: rgb(180, 208, 231);
     min-width: 100%;
     margin: auto;
+
 }
 
 .sixth-container {
@@ -623,10 +624,13 @@ h1 {
 /* seventh section */
 
 .seventh-section {
-    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 208, 231);
     min-width: 100%;
     margin: auto;
-    padding-bottom: 5rem;
+
 }
 
 .seventh-container {
@@ -634,8 +638,9 @@ h1 {
     margin: auto;
     min-height: 10rem;
     width: 60%;
-    background-color: lightskyblue;
+    background-color: rgb(180, 208, 231);
     justify-content: space-between;
+    padding: 4rem 0;
 }
 
 .seventh-container>h2 {
